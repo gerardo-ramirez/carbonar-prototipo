@@ -1,0 +1,224 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 30px;
+  background: #fff; }
+
+header {
+  background: #000000; }
+
+.content-video {
+  display: flex;
+  align-items: center; }
+
+video {
+  width: 100vw;
+  height: auto;
+  min-width: 100vw;
+  min-height: auto;
+  position: relative;
+  z-index: 1;
+  overflow-x: hidden; }
+
+.header-overlay {
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  z-index: 2; }
+
+.header-overlay h2, p {
+  color: #fff; }
+
+.header-overlay h1 {
+  color: #72726e; }
+
+.empresa {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: nowrap; }
+
+.texto h2 {
+  color: red; }
+
+.texto p {
+  color: #000000; }
+
+.separador {
+  max-width: 100vw;
+  width: 100%;
+  min-height: 350px;
+  height: 100%;
+  background-image: url("./../img/fotoCarbon.jpg");
+  background-position-y: center;
+  /* desde donde se tomar├í la imagen*/
+  background-repeat: no-repeat;
+  /* si la imag es corta, tiende a repetirse, con esto no se repite*/
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px; }
+
+.fuegoBlanco img {
+  max-width: 100px;
+  width: 100%;
+  height: auto; }
+
+.titulo {
+  color: #fff;
+  text-align: center; }
+
+.seccionArticulos {
+  min-width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 30px; }
+
+.iconoArticulo img {
+  width: 70%;
+  height: auto; }
+
+.articulos {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  padding: 35px; }
+
+.descripcion {
+  margin-top: 15px; }
+
+.descripcion h2 {
+  color: red; }
+
+.descripcion p {
+  color: #000000; }
+
+#bolsa {
+  width: 180px; }
+
+.zonaForm {
+  display: flex;
+  width: 100vw;
+  justify-content: space-around;
+  overflow-x: hidden; }
+
+form {
+  width: 40%;
+  max-width: 800px;
+  overflow-x: hidden; }
+  form h2 {
+    color: #72726e; }
+
+.imgForm {
+  max-width: 800px;
+  width: 100%;
+  height: auto; }
+
+.form-group textarea {
+  height: 110px; }
+
+.submitbtn {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end; }
+
+footer {
+  display: flex;
+  align-items: center;
+  height: 200px;
+  background: #000000; }
+
+.contenedorIso {
+  width: 30%; }
+
+.contenedorIconos {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  margin-top: 50px; }
+
+.isoFooter img {
+  max-width: 300px;
+  height: auto;
+  width: 100%; }
+
+.contenedorIconos a {
+  text-decoration: none; }
+
+.contenedorIconos p {
+  color: #ffffff; }
+
+.iconoGrupo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff; }
+
+.iconos {
+  color: #ffffff;
+  font-size: 30px;
+  padding-bottom: 15px; }
+
+@media screen and (max-width: 680px) {
+  .menu {
+    flex-direction: column;
+    align-items: flex-start; }
+
+  .content-video {
+    flex-direction: column; }
+
+  .header-overlay {
+    position: relative; }
+
+  .empresa {
+    flex-direction: column; }
+
+  .cajaFabrica {
+    display: flex;
+    justify-content: center; }
+
+  .fabrica {
+    width: 60%; }
+
+  .zonaForm {
+    flex-direction: column;
+    align-items: center; }
+
+  form {
+    width: 90%;
+    margin-top: 30px; }
+
+  .submitbtn {
+    align-items: flex-end;
+    flex-direction: column; }
+
+  .seccionArticulos {
+    flex-direction: column; }
+
+  .articulos {
+    width: 100%;
+    padding: 10px;
+    text-align: center; }
+
+  footer {
+    flex-direction: column;
+    height: 100%; }
+
+  .contenedorIconos {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0px; } }
+
+/*# sourceMappingURL=style.css.map */

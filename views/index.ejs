@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://bootswatch.com/4/lux/bootstrap.min.css">
+    <link rel="stylesheet" href="./../css/style.css">
+    <title>Carbonar</title>
+</head>
+
+<body>
+    <div>
+
+        <% include partials/navegation.ejs%>
+
+    </div>
+    <header>
+        <div class="content-video" id="header">
+            <div class="header-overlay">
+                <h1>Carbon Ar</h1>
+                <h2>Empresa de distribución nacional
+                    <br/>de carbón vegetal y leña.</h2>
+                <p>Somos distribuidores de carbón vegetal leña para restaurantes, carbones vegetales y leña.
+                    <br> Ponete en contacto con nosotros si quieres más información sobre nuestros servicios</p>
+                <a href="#formulario" class="btn btn-danger">Contactar</a>
+            </div>
+            <video src="./video/carbon.mp4" muted autoplay loop></video>
+        </div>
+
+    </header>
+
+    <section class="container ">
+        <div class="empresa" id="empresa">
+            <article class="texto">
+                <h2>Empresa de distribuición nacional de carbón y leña</h2>
+                <p>Carbonar es una empresa líder como distribuidor de carbón para restaurantes en Buenos Aires y el resto del
+                    país, así como en la distribución de leña a domicilio en Buenos Aires. Disponemos de leñas y carbones vegetales
+                    de la más alta calidad destacando entre sus ventajas la durabilidad y el alto poder calórico. Procuramos
+                    casas calientes y restaurantes con las mejores brasas. Si estás buscando una empresa de confianza que
+                    venda carbón para barbacoa, para que te lleven la leña a domicilio o el carbón a tu restaurante, Todo
+                    en Negro es la empresa que buscas: altas calidades a un precio competitivo.</p>
+                <p> <strong>Carbonar</strong> se ofrece como distribuidor
+                    de carbón para restaurantes en Buenos Aires provenientes de la encina. Después de haber sido quemada en hornos
+                    especiales a grandes temperaturas, triturada y compactada, la encina destaca por su gran durabilidad
+                    de las brasas pudiendo utilizar una única tirada para cocinar todos los alimentos, lo que supone un ahorro
+                    a largo plazo. <strong>Carbonar</strong> ofrece profesionalidad, calidad y eficiencia en la distribución de carbones
+                    para restaurantes, ofreciendo un amplio catálogo de carbones y leñas. Te enviaremos la mercancía de forma
+                    rápida y segura sin olvidar la limpieza que tan importante es para la vida de un restaurante. Nos adaptamos
+                    a los horarios de distribución de mercancías que el establecimiento tenga fijado, así como ofreceremos
+                    diferentes tamaños de embolsado de carbón vegetal, pudiendo llegar a hacer entregas de hasta 25 toneladas
+                    . Nuestro radio de acción tanto en la distribución de carbón para restaurantes en Buenos Aires como en la distribución
+                    de leña a domicilio es amplio. Puede contactar con nosotros para informarse y así le daremos la información
+                    más ajustada a sus necesidades.</p>
+  
+            </article>
+           <article class="cajaFabrica">
+                <img class="fabrica" src="./../img/fabrica.png">
+            </article>
+        </div>
+
+    </section>
+    <section class="separador">
+  <div class="fuegoBlanco">
+    <img src="./../iconos/fuegoBlanco.png" >
+
+  </div>
+        <div>
+        <h3 class="titulo">Trabajamos con leña, carbón
+                vegetal,<br> astillas de pino,
+                y carbón mineral.</h3>
+           </div>     
+        
+ 
+
+    </section>
+    <% include partials/article.ejs%>
+        <section id="formulario">
+            
+            <div class="zonaForm">
+                <div>
+                    <img src="./../img/leñas.jpg" class="imgForm">
+                </div>
+
+                <form id="formulario">
+                    <div class="form-group">
+                        <div class="fondoForm">
+                            <h2>Contactanos</h2>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Nombre" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="correo" placeholder="carbonar@carbonar.com" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" name="telefono" placeholder="1234-5679" class="form-control">
+                       
+                    </div>
+                    <div class="form-group">
+                        <textarea col="200" placeholder="Mensaje" class="form-control"></textarea>
+                    </div>
+                    <div class="form-group submitbtn">
+                        <div>
+                        <input type="submit" value="Enviar" class="btn btn-warning">
+                    </div>
+                        <div>
+                        <input type="checkbox" class="" id="customCheck1" class="">
+                        <label class="" for="customCheck1"><a>Terminos y condiciones</a></label>
+                    </div>
+                    </div>
+                </form>
+
+            </div>
+
+        </section>
+        <% include partials/footer.ejs%>
+
+
+
+
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+                crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+                crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+                crossorigin="anonymous"></script>
+</body>
+
+</html>
